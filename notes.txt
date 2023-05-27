@@ -1,0 +1,25 @@
+g++ cplus.cpp
+./a.out 
+ 
+ g++ main.cpp -lgomp -o test.exe
+ ./test.exe  
+
+cuda run:
+nvcc filename.cu
+./a.out
+
+OpenMP
+(API) that may be used to explicitly direct multi-threaded, 
+shared memory parallelism in C/C++ programs
+
+#pragma 
+creates a parallel region with a team of threads , where each thread will
+execute the entire block of code that the parallel region encloses.
+
+CUDA
+Compute unified device architecture (CUDA) programming enables you to leverage 
+parallel computing technologies developed by NVIDIA. 
+
+An Activation Function decides whether a neuron should be activated or not. 
+This means that it will decide whether the neuron's input to the network is 
+important or not in the process of prediction using simpler mathematical operations.
